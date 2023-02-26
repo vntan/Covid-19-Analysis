@@ -1,0 +1,21 @@
+#Tạo branch 
+git branch <tên branch>
+hoặc 
+git checkout -b <tên branch>
+
+#Xóa branch
+git branch -D <tên branch>
+
+#Lấy branch trên local và remote
+git branch -v -a
+
+#Đẩy branch lên git
+git push --set-upstream origin <tên branch>
+
+#Lấy branch từ remote
+git checkout <tên branch>
+
+#Chuyển thư mục/file từ branch A sang branch B
+git checkout <tên branch B>
+git checkout <tên branch A> <đường dẫn đến file>
+
